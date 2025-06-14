@@ -43,7 +43,10 @@ function App() {
               </li>
             </ul>
           </section>
-          <section>Instruction</section>
+          <section>
+            Instruction
+            <div>test</div>
+          </section>
         </div>
       </div>
     </>
