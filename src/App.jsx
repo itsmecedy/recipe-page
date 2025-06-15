@@ -18,6 +18,7 @@ function App() {
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
+          {/* Preparation */}
           <section className="text-[var(--stone-600)] m-4 p-4 bg-[var(--rose-50)] space-y-4">
             <p className="text-[var(--rose-800)]">Preparation time</p>
             <ul className="list-disc list-inside space-y-2">
@@ -43,8 +44,10 @@ function App() {
               </li>
             </ul>
           </section>
+
+          {/* Ingredients */}
           <section>
-            Instruction
+            Ingredients
             <div>test</div>
           </section>
         </div>
