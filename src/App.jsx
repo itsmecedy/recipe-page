@@ -13,14 +13,16 @@ function App() {
             Simple Omelette Recipe
           </p>
 
-          <p className=" font-[Outfit] text-[var(--stone-600)] tracking-wide mt-8">
+          <p className="  text-[var(--stone-600)] tracking-wide mt-8">
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
           {/* Preparation */}
           <section className="text-[var(--stone-600)] mx-4 my-12 p-4 bg-[var(--rose-50)] space-y-4">
-            <p className="text-[var(--rose-800)]">Preparation time</p>
+            <p className="text-[var(--rose-800)] font-semibold tracking-wide">
+              Preparation time
+            </p>
             <ul className="list-disc list-inside space-y-2">
               <li>
                 <span className="text-[var(--stone-900)] font-semibold">
@@ -47,8 +49,10 @@ function App() {
 
           {/* Ingredients */}
           <section className="mb-12">
-            <p className="text-[var(--brown-800)] text-2xl mb-4">Ingredients</p>
-            <ul className=" ml-2 list-disc list-inside space-y-2 text-[var(--stone-600)] font-[Outfit] ">
+            <p className="text-[var(--brown-800)] text-2xl mb-4 font-['Young_Serif']">
+              Ingredients
+            </p>
+            <ul className=" ml-2 list-disc list-inside space-y-2 text-[var(--stone-600)]  ">
               <li>2–3 large eggs</li>
               <li>Salt, to taste</li>
               <li>Pepper, to taste</li>
@@ -61,10 +65,10 @@ function App() {
 
           {/* Instructions */}
           <section className="mb-12">
-            <p className="text-[var(--brown-800)] text-2xl mb-4">
+            <p className="text-[var(--brown-800)] text-2xl mb-4 font-['Young_Serif']">
               Instructions
             </p>
-            <ol className="ml-6 list-decimal list-outside marker:text-[var(--brown-800)] marker:font-bold space-y-2 text-[var(--stone-600)] font-[Outfit]">
+            <ol className="ml-6 list-decimal list-outside marker:text-[var(--brown-800)] marker:font-bold space-y-2 text-[var(--stone-600)] ">
               <li className="pl-3">
                 <span className="font-bold">Beat the eggs:</span> In a bowl,
                 beat the eggs with a pinch of salt and pepper until they are
@@ -100,16 +104,16 @@ function App() {
           </section>
 
           {/* Nutrition */}
-          <section className="c">
-            <p className="text-[var(--brown-800)] text-2xl mb-2 font-bold">
+          <section className="mb-12">
+            <p className="text-[var(--brown-800)] text-2xl mb-2 font-['Young_Serif']">
               Nutrition
             </p>
-            <p className="text-[var(--stone-600)] font-[Outfit] mb-4">
+            <p className="text-[var(--stone-600)] mb-4">
               The table below shows nutritional values per serving without the
               additional fillings.
             </p>
 
-            <div className="w-full border-[var(--stone-300)] divide-y divide-[var(--stone-150)] font-[Outfit] flex justify-between flex-col ">
+            <div className="w-full border-[var(--stone-300)] divide-y divide-[var(--stone-150)]  flex justify-between flex-col ">
               {[
                 ["Calories", "277kcal"],
                 ["Carbs", "0g"],
